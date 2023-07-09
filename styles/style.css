@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+.logo-photo{
+    width: 120px;
+}
+.menus li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: url(../images/background.png),
+    linear-gradient(45deg,rgb(17, 17, 17),rgb(7, 7, 7));
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: darkslategray;
+    color: black;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: url(../images/background.png),
+    linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 0, 0));
+}
+.box{
+    height: 290px;
+    width: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+    padding: 5px;
+}
+.box-title{
+    padding: 15px;
+}
+.box-description{
+    padding: 5px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 20px;
+}
